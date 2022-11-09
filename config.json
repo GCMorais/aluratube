@@ -130,5 +130,29 @@
           "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
         }
       ]
+    },
+    "favorites":{
+      "AluraTubes Favoritos":[
+        {
+          "image":"https://yt3.ggpht.com/ytc/AMLnZu-plxxM3a-5TtArso4mOEQtBi3VP5OWeqN0VMV5_GQ=s176-c-k-c0x00ffffff-no-rj-mo",
+          "arroba":"@Funky Black Cat",
+          "url":"https://www.youtube.com/user/funkyblackcat"
+        },
+        {
+          "image":"https://yt3.ggpht.com/ytc/AMLnZu_mbn-MqJobcJOGk8Z2HITfY0goTYxYA_85gtbq=s176-c-k-c0x00ffffff-no-rj-mo",
+          "arroba":"@Enmynest",
+          "url":"https://www.youtube.com/user/DenyelGamer"
+        },
+        {
+          "image":"https://yt3.ggpht.com/ytc/AMLnZu82u-wbHey9Gqb36uBFSJvan1uXOYuIMn5yAoBO1A=s88-c-k-c0x00ffffff-no-rj",
+          "arroba":"@FAGames",
+          "url":"https://www.youtube.com/c/FAGames1/featured"
+        },
+        {
+          "image":"https://yt3.ggpht.com/ytc/AMLnZu-T5JCcuTln71ecGbxUc4WRc0cxMjBTenucqBmDfQ=s88-c-k-c0x00ffffff-no-rj",
+          "arroba":"@Deimos Rabugento",
+          "url":"https://www.youtube.com/c/DeimosRabugento"
+        }
+      ]
     }
   }

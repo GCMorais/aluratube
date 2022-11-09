@@ -9,7 +9,7 @@ export const StyledTimeline = styled.div`
     font-size: 16px;
     margin-bottom: 16px;
     text-transform: capitalize;
-     overflow: hidden;
+    overflow: hidden;
   }
   img {
     aspect-ratio: 16/9;
