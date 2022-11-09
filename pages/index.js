@@ -11,6 +11,7 @@ const Home = () => {
     
       <div>
         <Menu />
+        <Banner />
         <Header />
         <TimeLine lista={config.playlists} />
       </div>
@@ -27,7 +28,7 @@ const StyledHeader = styled.div`
   }
   .user-info{
     
-    margin-top: 70px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -35,6 +36,24 @@ const StyledHeader = styled.div`
     gap: 16px;
   }
 `;
+
+const BannerArea = styled.div`
+  img{
+    object-fit: cover;
+    width: 100%;
+    height: 18rem;
+    left: 0px;
+    top: 56px;
+  }
+`
+
+const Banner = () => {
+  return (
+    <BannerArea>
+      <img src="https://images.unsplash.com/photo-1636487658581-a7d60d465e35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80" />
+    </BannerArea>
+  )
+}
 
 const Header = () => {
   return (
