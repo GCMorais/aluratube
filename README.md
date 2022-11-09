@@ -24,7 +24,7 @@ Esse projeto faz parte do Imersão React_ proposto pela Alura.
 ## 🔝 Preview
 
 
-- Aplicação no Vercel [Clique aqui](https://aluratube-three-zeta.vercel.app/)
+- Aplicação no Vercel [Clique aqui ](target="_blank"https://aluratube-three-zeta.vercel.app/)
 ## 💻 Projeto
 
 AluraTube, projeto do Imersão React_ 5 da [Alura](https://www.alura.com.br/), que propôs um site inspirado no YouTube para explorar a tecnologia React.
