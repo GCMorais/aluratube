@@ -34,6 +34,9 @@ export const StyledTimeline = styled.div`
       grid-auto-columns: minmax(200px,1fr);
       overflow-x: scroll;
       scroll-snap-type: x mandatory;
+
+      overflow: auto;
+      
       a {
         scroll-snap-align: start;
         span {
