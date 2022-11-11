@@ -154,6 +154,7 @@ const FavArea = styled.div`
       font-size: 15px;
       font-family: sans-serif;
       letter-spacing: 1px;
+      color: ${({ theme }) => theme.textColorBase || "#FFFFFF"};
     }
     .fav-box a{
       color: #000;
