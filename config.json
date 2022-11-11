@@ -7,12 +7,14 @@
       "jogos": [
           {
             "title": "Frostpunk - Neve e Steak tartare",
-            "url": "https://www.youtube.com/watch?v=QsqatJxAUtk",
+            "url": "video/",
+            "videp": "QsqatJxAUtk",
             "thumb": "https://img.youtube.com/vi/QsqatJxAUtk/hqdefault.jpg"
           },
           {
             "title": "Frostpunk - Neve e Steak tartare",
             "url": "https://www.youtube.com/watch?v=O8jtAyPuhNg",
+            "videp": "O8jtAyPuhNg",
             "thumb": "https://img.youtube.com/vi/O8jtAyPuhNg/hqdefault.jpg"
           },
           {
@@ -136,7 +138,7 @@
       "AluraTubes Favoritos":[
         {
           "image":"https://yt3.ggpht.com/ytc/AMLnZu-plxxM3a-5TtArso4mOEQtBi3VP5OWeqN0VMV5_GQ=s176-c-k-c0x00ffffff-no-rj-mo",
-          "arroba":"@Funky Black Cat",
+          "arroba":"@FunkyBlackCat",
           "url":"https://www.youtube.com/user/funkyblackcat"
         },
         {
@@ -151,7 +153,7 @@
         },
         {
           "image":"https://yt3.ggpht.com/ytc/AMLnZu_ytaNePv-JT0hBu5_-23f-evy76xoxTuiuTnfWQQ=s176-c-k-c0x00ffffff-no-rj-mo",
-          "arroba":"@Aero Por Trás da Aviação",
+          "arroba":"@Aero",
           "url":"https://www.youtube.com/c/aeroportrasdaaviacao"
         }
       ]

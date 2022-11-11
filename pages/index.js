@@ -95,7 +95,7 @@ const TimeLine = ({filtro, ...props}) => {
         return (
             <section key={playlistNames}>
                 <h2>{playlistNames}</h2>
-                <div>
+                <div className="video-container">
                     {videos
                     .filter((video) => {
                       const titleNormalized = video.title.toLowerCase();
@@ -127,6 +127,29 @@ const FavArea = styled.div`
     padding: 16px 32px;
     gap: 2rem;
     
+
+    /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: grey;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+  }
+  
     section{
       display: flex;
       flex-direction: column;
@@ -144,11 +167,20 @@ const FavArea = styled.div`
       width: 80px;
       height: 80px;
       border-radius: 50%;
+      margin-bottom: .5rem;
     }
     .fav-box{
-      display: flex;
-      gap: 3rem;
-      width: 100%;
+      padding-bottom: 2rem;
+      width: calc(100vw - 16px * 4);
+      display: grid;
+      grid-gap: 16px;
+      grid-template-columns: repeat(auto-fill,minmax(130px,1fr));
+      grid-auto-flow: column;
+      grid-auto-columns: minmax(100px,1fr);
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+
+      overflow: auto;
     }
     .fav-box h3{
       font-size: 15px;
@@ -162,8 +194,6 @@ const FavArea = styled.div`
       flex-flow: column;
       align-items: center;
     }
-
-  
 `
 const Favorites = (props) => {
 
@@ -195,3 +225,4 @@ const Favorites = (props) => {
     </FavArea>
   )
 }
+

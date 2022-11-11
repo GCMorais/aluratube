@@ -3,6 +3,25 @@ import { createGlobalStyle } from "styled-components";
 export const CSSReset = createGlobalStyle`
   /* Reset */
   * {
+    scrollbar-width: auto;
+    scrollbar-color: grey;
+  }
+  *::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.backgroundLevel3};
+    border-radius: 10px;
+  }
+
+
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +30,7 @@ export const CSSReset = createGlobalStyle`
   body {
     font-family: sans-serif;
     overflow-x: hidden;
+    
   }
   /* NextJS */
   html {

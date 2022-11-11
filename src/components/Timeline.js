@@ -5,6 +5,29 @@ export const StyledTimeline = styled.div`
   width: 100%;
   padding: 16px;
   overflow: hidden;
+
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: grey;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+  }
+
   h2 {
     font-size: 16px;
     margin-bottom: 16px;
@@ -18,6 +41,7 @@ export const StyledTimeline = styled.div`
     width: 100%;
     max-width: 210px;
     height: auto;
+    border-radius: 10px;
   }
   section {
     width: 100%;
@@ -25,7 +49,7 @@ export const StyledTimeline = styled.div`
     overflow: hidden;
     padding: 16px;
     div {
-      
+      padding-bottom: 2rem;
       width: calc(100vw - 16px * 4);
       display: grid;
       grid-gap: 16px;

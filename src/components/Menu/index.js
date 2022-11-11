@@ -14,7 +14,7 @@ const StyledMenu = styled.header`
   gap: 16px;
   position: fixed;
   width: 100%;
-  box-shadow: 0 0 10px grey;
+  z-index: 1;
 
   .logo {
     width: 100%;
