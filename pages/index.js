@@ -3,6 +3,7 @@ import config from "../config.json";
 import styled from "styled-components";
 import Menu from "../src/components/Menu";
 import {StyledTimeline} from "../src/components/Timeline"
+import Link from "next/link";
 
 const Home = () => {
 

@@ -1,8 +1,9 @@
 import React from "react";
-import Menu from "../src/components/Menu";
+import Menu from "../../src/components/Menu";
 import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
-import config from "../config.json";
+import config from "../../config.json";
+import Link from "next/link";
 
 const StyledMainSection = styled.section`
   display: flex;
@@ -210,9 +211,7 @@ export default function MainPage() {
   );
 }
 
-const Video = (props) => {
-  const playlistNames = Object.keys(props.dados);
-  console.log(playlistNames);
+const Video = () => {
   return (
     <>
       <StyledVideoPage>
@@ -256,65 +255,6 @@ const Video = (props) => {
     </>
   );
 };
-
-// const Video = (props) => {
-//   const playlistNames = Object.keys(props.dados);
-
-//   return (
-//     <>
-//       {playlistNames.map((playlistNames) => {
-//         const videos = props.dados[playlistNames];
-//         return (
-//           <StyledVideoPage>
-//             <div>
-//               {videos.map((video) => {
-//                 return (
-//                   <>
-//                     <div className="ratio ratio-16x9">
-//                       <iframe
-//                         src={`https://www.youtube.com/embed/${video.videp}?rel=0`}
-//                         title="Never Too Much"
-//                         allowFullscreen
-//                       ></iframe>
-//                     </div>
-//                     <div className="descricaoArea">
-//                       <h1>{video.title}</h1>
-//                       <div className="channelBox">
-//                         <div className="profileTube">
-//                           <img
-//                             src={`https://github.com/${config.github}.png`}
-//                           />
-//                           <span>
-//                             <p>Guilherme C.Morais</p>
-//                             <a>FullStack Developer</a>
-//                           </span>
-//                         </div>
-//                         <div className="btn-container">
-//                           <button className="btn-chn" type="button">
-//                             Inscrever-se
-//                           </button>
-//                           <button className="btn-like-deslike" type="button">
-//                             👍 Like
-//                           </button>
-//                           <button className="btn-like-deslike" type="button">
-//                             👎 Deslike
-//                           </button>
-//                           <button className="btn-comp" type="button">
-//                             🔃 Compartilhar
-//                           </button>
-//                         </div>
-//                       </div>
-//                     </div>
-//                   </>
-//                 );
-//               })}
-//             </div>
-//           </StyledVideoPage>
-//         );
-//       })}
-//     </>
-//   );
-// };
 
 const CommentList = (props) => {
   const playlistNames = Object.keys(props.comentario);
