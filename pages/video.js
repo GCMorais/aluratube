@@ -96,6 +96,21 @@ const StyledVideoPage = styled.section`
     display: flex;
     gap: 1rem;
   }
+  .desable p{
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 15px;
+    line-height: 2rem;
+    font-weight: 400;
+    padding-top: 4rem;
+    text-align: center;
+    cursor: unset;
+  }
+  .desable a{
+    color: #36a1e8;
+    font-weight: 400;
+    opacity: .9;
+  }
+
   @media (max-width: 800px) {
     width: 100%;
     padding: 4rem 0 0 0;
@@ -109,6 +124,9 @@ const StyledVideoPage = styled.section`
     }
     .descricaoArea h1 {
       font-size: 1.1rem;
+    }
+    .desable {
+      visibility: unset;
     }
   }
 `;
@@ -193,49 +211,51 @@ export default function MainPage() {
 }
 
 const Video = (props) => {
-
-    const playlistNames = Object.keys(props.dados);
-    console.log(playlistNames)
-    return (
-        <>
-            <StyledVideoPage>
-                <div className="ratio ratio-16x9">
-                    <iframe
-                    src={`https://www.youtube.com/embed/QsqatJxAUtk?rel=0`}
-                    title="Never Too Much"
-                    allowFullscreen
-                    ></iframe>
-                </div>
-                <div className="descricaoArea">
-                    <h1>Frostpunk - Neve e Steak tartare</h1>
-                    <div className="channelBox">
-                    <div className="profileTube">
-                        <img src={`https://github.com/${config.github}.png`} />
-                        <span>
-                        <p>Guilherme C.Morais</p>
-                        <a>FullStack Developer</a>
-                        </span>
-                    </div>
-                    <div className="btn-container">
-                        <button className="btn-chn" type="button">
-                        Inscrever-se
-                        </button>
-                        <button className="btn-like-deslike" type="button">
-                        👍 Like
-                        </button>
-                        <button className="btn-like-deslike" type="button">
-                        👎 Deslike
-                        </button>
-                        <button className="btn-comp" type="button">
-                        🔃 Compartilhar
-                        </button>
-                    </div>
-                    </div>
-                </div>
-            </StyledVideoPage>
-        </>
-    );
-}
+  const playlistNames = Object.keys(props.dados);
+  console.log(playlistNames);
+  return (
+    <>
+      <StyledVideoPage>
+        <div className="ratio ratio-16x9">
+          <iframe
+            src={`https://www.youtube.com/embed/QsqatJxAUtk?rel=0`}
+            title="Never Too Much"
+            allowFullscreen
+          ></iframe>
+        </div>
+        <div className="descricaoArea">
+          <h1>Frostpunk - Neve e Steak tartare</h1>
+          <div className="channelBox">
+            <div className="profileTube">
+              <img src={`https://github.com/${config.github}.png`} />
+              <span>
+                <p>Guilherme C.Morais</p>
+                <a>FullStack Developer</a>
+              </span>
+            </div>
+            <div className="btn-container">
+              <button className="btn-chn" type="button">
+                Inscrever-se
+              </button>
+              <button className="btn-like-deslike" type="button">
+                👍 Like
+              </button>
+              <button className="btn-like-deslike" type="button">
+                👎 Deslike
+              </button>
+              <button className="btn-comp" type="button">
+                🔃 Compartilhar
+              </button>
+            </div>
+          </div>
+          <div className="desable">
+            <p>Os comentários estão desativados. <a target="_blank" href="https://httpstatusdogs.com/404-not-found">Saiba mais</a></p>
+          </div>
+        </div>
+      </StyledVideoPage>
+    </>
+  );
+};
 
 // const Video = (props) => {
 //   const playlistNames = Object.keys(props.dados);
