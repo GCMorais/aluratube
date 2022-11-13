@@ -27,6 +27,7 @@ export default Home;
 
 const StyledHeader = styled.div`
   background-color: ${({ theme }) => theme.backgroundLevel1};
+  
 
   img {
     width: 80px;
@@ -34,7 +35,7 @@ const StyledHeader = styled.div`
     border-radius: 50%;
     background-color: green;
     padding: 3px;
-    transition: 0.5s;
+    transition: all 0.2s ease-out;
   }
   img:hover {
     transition: all 0.3s ease-in-out;

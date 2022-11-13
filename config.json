@@ -4,139 +4,154 @@
     "github": "GCMorais",
     "bg": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80",
     "playlists": {
-      "jogos": [
+      "Games": [
           {
             "title": "TUTORIAL PARA INICIANTES NO DAYZ",
             "url": "https://www.youtube.com/watch?v=mYreEbxV4WU&ab_channel=LeonKexz",
-            "urlp": "/video?v=mYreEbxV4WU&title=TUTORIAL+PARA+INICIANTES+NO+DAYZ",
+            "urlp": "?v=mYreEbxV4WU&title=TUTORIAL+PARA+INICIANTES+NO+DAYZ",
             "thumb": "https://i.ytimg.com/vi/mYreEbxV4WU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNU7mgW0-1RSw1XSoG5vIzZqYTiw"
           },
           {
-            "title": "Remakes MAIS IMPORTANTES de Pokémon",
-            "url": "https://www.youtube.com/watch?v=O8jtAyPuhNg&ab_channel=Kaka-MestrePok%C3%A9mon%21",
-            "urlp": "/video?v=O8jtAyPuhNg&title=Remakes+MAIS+IMPORTANTES+de+Pokémon",
-            "thumb": "https://img.youtube.com/vi/O8jtAyPuhNg/hqdefault.jpg"
+            "title": "War Thunder Best Moments 53",
+            "url": "https://youtube.com/watch?v=ggl0cc65tLg",
+            "urlp": "?v=ggl0cc65tLg&title=War+Thunder+Best+Moments+53",
+            "thumb": "https://img.youtube.com/vi/ggl0cc65tLg/mqdefault.jpg"
           },
           {
-            "title": "Gas Station Simulator - 8 dias sem dormir!",
-            "url": "video/",
-            "tag": "R1d0DyRDG_Q",
-            "thumb": "https://img.youtube.com/vi/R1d0DyRDG_Q/hqdefault.jpg"
+            "title": "A VERDADEIRA LUTA PARA SOBREVIVER - DayZ",
+            "url": "https://youtube.com/watch?v=ObvbIS8b6DE",
+            "urlp": "?v=ObvbIS8b6DE&title=A+VERDADEIRA+LUTA+PARA+SOBREVIVER+-+DayZ",
+            "thumb": "https://img.youtube.com/vi/ObvbIS8b6DE/mqdefault.jpg"
           },
           {
-            "title": "Gartic Phone - Não assista a esse NerdPlayer!",
-            "url": "video/",
-            "tag": "0oJQUs5oRiM",
-            "thumb": "https://img.youtube.com/vi/0oJQUs5oRiM/hqdefault.jpg"
+            "title": "FIQUEI SEM MUNIÇÃO - DAYZ",
+            "url": "https://youtube.com/watch?v=oqgD6gyhF4Y",
+            "urlp": "?v=oqgD6gyhF4Y&title=FIQUEI+SEM+MUNIÇÃO+-+DAYZ", 
+            "thumb": "https://img.youtube.com/vi/oqgD6gyhF4Y/mqdefault.jpg"
           },
           {
-            "title": "Netdecking Estraga o Magic?",
-            "url": "video/",
-            "tag": "dXihyhYEsEc",
-            "thumb": "https://img.youtube.com/vi/dXihyhYEsEc/hqdefault.jpg"
+            "title": "O MELHOR AMIGO DO HOMEM - Mist Survival - Ep.3",
+            "url": "https://youtube.com/watch?v=376Ndgu2iM0",
+            "urlp": "?v=376Ndgu2iM0&title=O+MELHOR+AMIGO+DO+HOMEM+-+Mist+Survival+-+Ep.3",
+            "thumb": "https://img.youtube.com/vi/376Ndgu2iM0/mqdefault.jpg"
           },
           {
-            "title": "Cities: Skylines - EPCOTAB, o futuro de Saint Laurrent",
-            "url": "video/",
-            "tag": "zybKHMgLCWU",
-            "thumb": "https://img.youtube.com/vi/zybKHMgLCWU/hqdefault.jpg"
+            "title": "A GLÓRIA E A QUEDA DE HABBO HOTEL",
+            "url": "https://youtube.com/watch?v=hIaHlV3LQuY",
+            "urlp": "?v=hIaHlV3LQuY&title=A+GLÓRIA+E+A+QUEDA+DE+HABBO+HOTEL",
+            "thumb": "https://img.youtube.com/vi/hIaHlV3LQuY/mqdefault.jpg"
           },
           {
-            "title": "We Were Here Together - Os Enigmas deste Mundo",
-            "url": "video/",
-            "tag": "UKgQsrHUG40",
-            "thumb": "https://img.youtube.com/vi/UKgQsrHUG40/hqdefault.jpg"
+            "title": "THE LAST DANCE vs SELEÇÃO SUECA",
+            "url": "https://youtube.com/watch?v=z8NTKRJhFas",
+            "urlp": "?v=z8NTKRJhFas&title=THE+LAST+DANCE+vs+SELEÇÃO+SUECA",
+            "thumb": "https://img.youtube.com/vi/z8NTKRJhFas/mqdefault.jpg"
           },
           {
-            "title": "Microsoft Flight Simulator - Top Gun: Oceania - Missão RJ!",
-            "url": "video/",
-            "tag": "n3TneUb5c-w",
-            "thumb": "https://img.youtube.com/vi/n3TneUb5c-w/hqdefault.jpg"
+            "title": "RE4 VS RESIDENT EVIL 4 REMAKE",
+            "url": "https://youtube.com/watch?v=AXb0gW5xtBc",
+            "urlp": "?v=AXb0gW5xtBc&title=RE4+VS+RESIDENT+EVIL+4+REMAKE",
+            "thumb": "https://img.youtube.com/vi/AXb0gW5xtBc/mqdefault.jpg"
           }
         ],
-      "front-end": [
+      "Últimas Musicas": [
         {
-          "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
-          "url": "https://youtube.com/watch?v=jOAU81jdi-c",
-          "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+          "title": "Kanye West - Flashing Lights",
+          "url": "https://www.youtube.com/watch?v=ZAz3rnLGthg",
+          "urlp": "?v=ZAz3rnLGthg&title=Kanye+West+-+Flashing+Lights",
+          "thumb": "https://img.youtube.com/vi/Et3sWpLrI00/mqdefault.jpg"
         },
         {
-          "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
-          "url": "https://www.youtube.com/watch?v=llF6vD-RljE",
-          "thumb": "https://img.youtube.com/vi/llF6vD-RljE/hqdefault.jpg"
+          "title": "Queens Of The Stone Age - No One Knows (Official Music Video)",
+          "url": "https://www.youtube.com/watch?v=s88r_q7oufE",
+          "urlp": "?v=s88r_q7oufE&title=Queens+Of+The+Stone+Age+-+No+One+Knows+%28Official+Music+Video%29",
+          "thumb": "https://img.youtube.com/vi/s88r_q7oufE/mqdefault.jpg"
         },
         {
-          "title": "A Primeira Aula de Flutter Que Todo Mundo Deveria Ter",
-          "url": "https://www.youtube.com/watch?v=J4BVaXkwmM8",
-          "thumb": "https://img.youtube.com/vi/J4BVaXkwmM8/hqdefault.jpg"
+          "title": "I Think I Like When It Rains",
+          "url": "https://youtube.com/watch?v=HpYdA-06jTc",
+          "urlp": "?v=HpYdA-06jTc&title=I+Think+I+Like+When+It+Rains",
+          "thumb": "https://img.youtube.com/vi/HpYdA-06jTc/mqdefault.jpg"
         },
         {
-          "title": "O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?",
-          "url": "https://www.youtube.com/watch?v=dp0zB4n3MUs",
-          "thumb": "https://img.youtube.com/vi/dp0zB4n3MUs/hqdefault.jpg"
+          "title": "Holiday In Cambodia",
+          "url": "https://youtube.com/watch?v=Ub4E2RHwc30",
+          "urlp": "?v=Ub4E2RHwc30&title=Holiday+In+Cambodia",
+          "thumb": "https://img.youtube.com/vi/Ub4E2RHwc30/mqdefault.jpg"
         },
         {
-          "title": "Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=Yf0rC7dERjg",
-          "thumb": "https://img.youtube.com/vi/Yf0rC7dERjg/hqdefault.jpg"
+          "title": "Kanye West - Jail",
+          "url": "https://youtube.com/watch?v=IviYsgJXG5k",
+          "urlp": "?v=IviYsgJXG5k&title=Kanye+West+-+Jail",
+          "thumb": "https://img.youtube.com/vi/IviYsgJXG5k/mqdefault.jpg"
         },
         {
-          "title": "Como Foi Programado um App Que Faz Mágica",
-          "url": "https://www.youtube.com/watch?v=I36seuWUe5s",
-          "thumb": "https://img.youtube.com/vi/I36seuWUe5s/hqdefault.jpg"
+          "title": "Eminem - Mockingbird [Official Music Video]",
+          "url": "https://youtube.com/watch?v=S9bCLPwzSC0",
+          "urlp": "?v=S9bCLPwzSC0&title=Eminem+-+Mockingbird+%5BOfficial+Music+Video%5D",
+          "thumb": "https://img.youtube.com/vi/S9bCLPwzSC0/mqdefault.jpg"
         },
         {
-          "title": "O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript",
-          "url": "https://www.youtube.com/watch?v=yS7AcF-xRUg",
-          "thumb": "https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg"
+          "title": "Kanye West - Runaway ft. Pusha T",
+          "url": "https://youtube.com/watch?v=uTEhc5bFp-k",
+          "urlp": "?v=uTEhc5bFp-k&title=Kanye+West+-+Runaway+ft.+Pusha+T",
+          "thumb": "https://img.youtube.com/vi/uTEhc5bFp-k/mqdefault.jpg"
         },
         {
-          "title": "5 Erros Históricos do CSS",
-          "url": "https://www.youtube.com/watch?v=HNjkqONzGS0",
-          "thumb": "https://img.youtube.com/vi/HNjkqONzGS0/hqdefault.jpg"
+          "title": "Misfits - Saturday Night",
+          "url": "https://youtube.com/watch?v=JlWPpQmjnVQ",
+          "urlp": "?v=JlWPpQmjnVQ&title=Misfits+-+Saturday+Night",
+          "thumb": "https://img.youtube.com/vi/JlWPpQmjnVQ/mqdefault.jpg"
         },
         {
-          "title": "Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End",
-          "url": "https://www.youtube.com/watch?v=d9c0r-J6CdM",
-          "thumb": "https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
+          "title": "Never Too Much - Luther Vandross",
+          "url": "https://youtube.com/watch?v=o6vCn2sBbBE",
+          "urlp": "?v=o6vCn2sBbBE&title=Never+Too+Much+-+Luther+Vandross",
+          "thumb": "https://img.youtube.com/vi/o6vCn2sBbBE/mqdefault.jpg"
         }
       ],
-      "back-end": [
+      "Outros": [
         {
-          "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
-          "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
-          "thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
+          "title": "Flying Over the Desert & Mountains at 10,000 ft! Michigan to California Part 2",
+          "url": "https://youtube.com/watch?v=KXvcYy-qaEs",
+          "urlp": "",
+          "thumb": "https://img.youtube.com/vi/KXvcYy-qaEs/mqdefault.jpg"
         },
         {
-          "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
-          "url": "https://www.youtube.com/watch?v=8q36rNS5yVo",
-          "thumb": "https://img.youtube.com/vi/8q36rNS5yVo/hqdefault.jpg"
-        },
-        
-        {
-          "title": "O que é o Java? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=90NcVNsKGik",
-          "thumb": "https://img.youtube.com/vi/90NcVNsKGik/hqdefault.jpg"
+          "title": "1000HP Twin Turbo Lamborghini Huracan",
+          "url": "https://youtube.com/watch?v=LaLhYHj1obs",
+          "urlp": "?v=LaLhYHj1obs&title=1000HP+Twin+Turbo+Lamborghini+Huracan",
+          "thumb": "https://img.youtube.com/vi/LaLhYHj1obs/mqdefault.jpg"
         },
         {
-          "title": "O que é Machine Learning? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
-          "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
+          "title": "2 Fast 2 Furious Skyline scene HD",
+          "url": "https://youtube.com/watch?v=hWcID2JgztU",
+          "urlp": "?v=hWcID2JgztU&title=O+que+é+o+Java%3F+%23HipstersPontoTube",
+          "thumb": "https://img.youtube.com/vi/hWcID2JgztU/mqdefault.jpg"
         },
         {
-          "title": "A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=imB0QVoNrGc",
-          "thumb": "https://img.youtube.com/vi/imB0QVoNrGc/hqdefault.jpg"
+          "title": "Will Our FREE Abandoned Airplane Finally Start? Ep4",
+          "url": "https://youtube.com/watch?v=9P2kqlmPURo",
+          "urlp": "?v=Iuz_jc96bQk&title=Will+Our+FREE+Abandoned+Airplane+Finally+Start%3F+Ep4",
+          "thumb": "https://img.youtube.com/vi/9P2kqlmPURo/mqdefault.jpg"
         },
         {
-          "title": "Top 5 libs que todo aplicativo Android deve ter com Alex Felipe | #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ldRbnpy-qQs",
-          "thumb": "https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg"
+          "title": "POV: Novitec Ferrari 812 GTS N-Largo, sounds like a old F1 car",
+          "url": "https://youtube.com/watch?v=6_w86uwSl-Q",
+          "urlp": "?v=6_w86uwSl-Q&title=POV%3A+Novitec+Ferrari+812+GTS+N-Largo%2C+sounds+like+a+old+F1+car",
+          "thumb": "https://img.youtube.com/vi/6_w86uwSl-Q/mqdefault.jpg"
         },
         {
-          "title": "O que é o C#? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
-          "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+          "title": "Os AVIÕES que VOAM dentro dos FURACÕES",
+          "url": "https://youtube.com/watch?v=AgZ8R6ICYKs",
+          "urlp": "?v=AgZ8R6ICYKs&title=Os+AVIÕES+que+VOAM+dentro+dos+FURACÕES",
+          "thumb": "https://img.youtube.com/vi/AgZ8R6ICYKs/mqdefault.jpg"
+        },
+        {
+          "title": "4500 Años de Guerra en 5 Minutos",
+          "url": "https://youtube.com/watch?v=HK5OsDWYJmQ",
+          "urlp": "?v=HK5OsDWYJmQ&title=4500+Años+de+Guerra+en+5+Minutos",
+          "thumb": "https://img.youtube.com/vi/HK5OsDWYJmQ/mqdefault.jpg"
         }
       ]
     },
