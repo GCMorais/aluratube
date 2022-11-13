@@ -125,13 +125,13 @@ const VideoPlayer = () => {
   return (
     <StyledVideoPlayer>
       <div>
-        <iframe
-          width="896"
-          height="504"
-          src={`https://www.youtube.com/embed/${router.query.v}`}
-          title="Youtube Video Player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-        ></iframe>
+        <div className="ratio ratio-16x9">
+            <iframe
+            src={`https://www.youtube.com/embed/${router.query.v}`}
+            title="Youtube Video Player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+        </div>
         <div className="descricaoArea">
             <h1 className="title">{router.query.title}</h1>
           <div className="channelBox">

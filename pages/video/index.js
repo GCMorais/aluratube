@@ -64,26 +64,19 @@ const CommentList = (props) => {
     <div>
       {playlistNames.map((playlistNames) => {
         const videos = props.comentario[playlistNames];
-        
         return (
           <StyledComment>
             <div>
               {videos.map((video) => {
                 let idVideo;
-                const linkFormat =
-                  /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
-                const match = video.url.match(linkFormat);
-                if (match && match[2].length == 11) {
-                  idVideo = match[2];
-                }
+                  const linkFormat =
+                    /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+                  const match = video.url.match(linkFormat);
+                  if (match && match[2].length == 11) {
+                    idVideo = match[2];
+                  }
                 return (
-                  <a href={{
-                        pathname: "/video",
-                        query: {
-                          v: idVideo,
-                          title: video.title,
-                        },
-                      }}>
+                  <a key={video.urlp} href={video.urlp}>
                     <img src={video.thumb} />
                     <p>{video.title}</p>
                   </a>
