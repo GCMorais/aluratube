@@ -4,6 +4,11 @@ import styled from "styled-components";
 import Menu from "../src/components/Menu";
 import { StyledTimeline } from "../src/components/TimeLine/Timeline";
 import Link from "next/link";
+import { GoMarkGithub } from "react-icons/go";
+import { GrLinkedin, GrRobot } from "react-icons/gr";
+import { MdOutlineEmojiEvents } from "react-icons/md";
+
+
 
 
 const Home = () => {
@@ -19,6 +24,7 @@ const Home = () => {
         <Header />
         <TimeLine filtro={valorDoFiltro} lista={config.playlists} />
         <Favorites favlist={config.favorites} />
+        <Footer />
       </div>
     </>
   );
@@ -27,7 +33,6 @@ export default Home;
 
 const StyledHeader = styled.div`
   background-color: ${({ theme }) => theme.backgroundLevel1};
-  
 
   img {
     width: 80px;
@@ -48,20 +53,40 @@ const StyledHeader = styled.div`
     transition: 0.3s;
   }
   .user-info {
-    margin-top: 20px;
     display: flex;
-    align-items: center;
     width: 100%;
     padding: 16px 32px;
     gap: 16px;
+    justify-content: space-between;
+
+    div{
+      display: flex;
+    }
   }
-  .userInfos p {
+  .userDescript p {
     font-family: "Helvetica";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     color: #666666;
+  }
+  .userDescript{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  li a{
+    color: ${({ theme }) => theme.textColorBase || "#222222"};
+  }
+  .userSocials{
+    align-items: center;
   }
 `;
 
@@ -75,18 +100,29 @@ const StyledBanner = styled.div`
 
 const Header = () => {
   return (
-    <StyledHeader>
+    <>
       <StyledBanner />
-      <section className="user-info">
-        <a href="https://www.linkedin.com/in/guilhermecmorais/" target="_blank">
-          <img src={`https://github.com/${config.github}.png`} />
-        </a>
-        <div className="userInfos">
-          <h1>{config.name}</h1>
-          <p>{config.description}</p>
-        </div>
-      </section>
-    </StyledHeader>
+      <StyledHeader>
+        <section className="user-info">
+          <div>
+            <a href="https://www.linkedin.com/in/guilhermecmorais/" target="_blank">
+              <img src={`https://github.com/${config.github}.png`} />
+            </a>
+            <div className="userDescript">
+              <h1>{config.name}</h1>
+              <p>{config.description}</p>
+            </div>
+          </div>
+          
+          <div className="userSocials">
+            <ul>
+              <li><a target="_blank" href="https://github.com/GCMorais"><GoMarkGithub size={30}/></a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/in/guilhermecmorais/"><GrLinkedin size={30}/></a></li>
+            </ul>
+          </div>
+        </section>
+      </StyledHeader>
+    </>
   );
 };
 
@@ -128,6 +164,7 @@ const TimeLine = ({ filtro, ...props }) => {
                     >
                       <img src={video.thumb} />
                       <span>{video.title}</span>
+                      <h4><strong>{video.channel}</strong></h4>
                     </Link>
                   );
                 })}
@@ -145,6 +182,7 @@ const FavArea = styled.div`
   width: 100%;
   padding: 16px 32px;
   gap: 2rem;
+  background-color: ${({ theme }) => theme.backgroundLevel1};
 
   /* ===== Scrollbar CSS ===== */
   /* Firefox */
@@ -240,3 +278,37 @@ const Favorites = (props) => {
     </FavArea>
   );
 };
+
+
+const StyledFooter = styled.section`
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+  font-size: 14px;
+
+  div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding-bottom: 1rem;
+    span{
+      color: ${({ theme }) => theme.textColorBase || "#222222"};
+    }
+  }
+  strong{
+    opacity: .7;
+  }
+`
+
+const Footer = () =>{
+
+
+  return (
+    <StyledFooter>
+      <div>
+        <span><MdOutlineEmojiEvents size={23}/></span>
+        <h4>Desenvolvido por Guilherme C.Morais - <strong>2022</strong></h4>
+      </div>
+    </StyledFooter>
+  )
+}

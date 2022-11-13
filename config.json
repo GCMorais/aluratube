@@ -1,6 +1,6 @@
 {
     "name": "Guilherme C.Morais",
-    "description": "FullStack Developer",
+    "description": "Developer and tech enthusiast",
     "github": "GCMorais",
     "bg": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80",
     "playlists": {
@@ -9,49 +9,57 @@
             "title": "TUTORIAL PARA INICIANTES NO DAYZ",
             "url": "https://www.youtube.com/watch?v=mYreEbxV4WU&ab_channel=LeonKexz",
             "urlp": "?v=mYreEbxV4WU&title=TUTORIAL+PARA+INICIANTES+NO+DAYZ",
-            "thumb": "https://i.ytimg.com/vi/mYreEbxV4WU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNU7mgW0-1RSw1XSoG5vIzZqYTiw"
+            "thumb": "https://i.ytimg.com/vi/mYreEbxV4WU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNU7mgW0-1RSw1XSoG5vIzZqYTiw",
+            "channel": "@Leon Kexz"
           },
           {
             "title": "War Thunder Best Moments 53",
             "url": "https://youtube.com/watch?v=ggl0cc65tLg",
             "urlp": "?v=ggl0cc65tLg&title=War+Thunder+Best+Moments+53",
-            "thumb": "https://img.youtube.com/vi/ggl0cc65tLg/mqdefault.jpg"
+            "thumb": "https://img.youtube.com/vi/ggl0cc65tLg/mqdefault.jpg",
+            "channel": "@War Thunder - Best moments"
           },
           {
             "title": "A VERDADEIRA LUTA PARA SOBREVIVER - DayZ",
             "url": "https://youtube.com/watch?v=ObvbIS8b6DE",
             "urlp": "?v=ObvbIS8b6DE&title=A+VERDADEIRA+LUTA+PARA+SOBREVIVER+-+DayZ",
-            "thumb": "https://img.youtube.com/vi/ObvbIS8b6DE/mqdefault.jpg"
+            "thumb": "https://img.youtube.com/vi/ObvbIS8b6DE/mqdefault.jpg",
+            "channel": "@FAGames"
           },
           {
             "title": "FIQUEI SEM MUNIÇÃO - DAYZ",
             "url": "https://youtube.com/watch?v=oqgD6gyhF4Y",
             "urlp": "?v=oqgD6gyhF4Y&title=FIQUEI+SEM+MUNIÇÃO+-+DAYZ", 
-            "thumb": "https://img.youtube.com/vi/oqgD6gyhF4Y/mqdefault.jpg"
+            "thumb": "https://img.youtube.com/vi/oqgD6gyhF4Y/mqdefault.jpg",
+            "channel": "@Jebala Play"
           },
           {
             "title": "O MELHOR AMIGO DO HOMEM - Mist Survival - Ep.3",
             "url": "https://youtube.com/watch?v=376Ndgu2iM0",
             "urlp": "?v=376Ndgu2iM0&title=O+MELHOR+AMIGO+DO+HOMEM+-+Mist+Survival+-+Ep.3",
-            "thumb": "https://img.youtube.com/vi/376Ndgu2iM0/mqdefault.jpg"
+            "thumb": "https://img.youtube.com/vi/376Ndgu2iM0/mqdefault.jpg",
+            "channel": "@FAGames"
           },
           {
             "title": "A GLÓRIA E A QUEDA DE HABBO HOTEL",
             "url": "https://youtube.com/watch?v=hIaHlV3LQuY",
             "urlp": "?v=hIaHlV3LQuY&title=A+GLÓRIA+E+A+QUEDA+DE+HABBO+HOTEL",
-            "thumb": "https://img.youtube.com/vi/hIaHlV3LQuY/mqdefault.jpg"
+            "thumb": "https://img.youtube.com/vi/hIaHlV3LQuY/mqdefault.jpg",
+            "channel": "@Bruno Rataque"
           },
           {
             "title": "THE LAST DANCE vs SELEÇÃO SUECA",
             "url": "https://youtube.com/watch?v=z8NTKRJhFas",
             "urlp": "?v=z8NTKRJhFas&title=THE+LAST+DANCE+vs+SELEÇÃO+SUECA",
-            "thumb": "https://img.youtube.com/vi/z8NTKRJhFas/mqdefault.jpg"
+            "thumb": "https://img.youtube.com/vi/z8NTKRJhFas/mqdefault.jpg",
+            "channel": "@TQR CLIPS"
           },
           {
             "title": "RE4 VS RESIDENT EVIL 4 REMAKE",
             "url": "https://youtube.com/watch?v=AXb0gW5xtBc",
             "urlp": "?v=AXb0gW5xtBc&title=RE4+VS+RESIDENT+EVIL+4+REMAKE",
-            "thumb": "https://img.youtube.com/vi/AXb0gW5xtBc/mqdefault.jpg"
+            "thumb": "https://img.youtube.com/vi/AXb0gW5xtBc/mqdefault.jpg",
+            "channel": "@Enmynest"
           }
         ],
       "Últimas Musicas": [
@@ -59,99 +67,115 @@
           "title": "Kanye West - Flashing Lights",
           "url": "https://www.youtube.com/watch?v=ZAz3rnLGthg",
           "urlp": "?v=ZAz3rnLGthg&title=Kanye+West+-+Flashing+Lights",
-          "thumb": "https://img.youtube.com/vi/Et3sWpLrI00/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/Et3sWpLrI00/mqdefault.jpg",
+          "channel": "@Kanye West Official Channel"
         },
         {
           "title": "Queens Of The Stone Age - No One Knows (Official Music Video)",
           "url": "https://www.youtube.com/watch?v=s88r_q7oufE",
           "urlp": "?v=s88r_q7oufE&title=Queens+Of+The+Stone+Age+-+No+One+Knows+%28Official+Music+Video%29",
-          "thumb": "https://img.youtube.com/vi/s88r_q7oufE/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/s88r_q7oufE/mqdefault.jpg",
+          "channel": "@Queens Of The Stone Age"
         },
         {
           "title": "I Think I Like When It Rains",
           "url": "https://youtube.com/watch?v=HpYdA-06jTc",
           "urlp": "?v=HpYdA-06jTc&title=I+Think+I+Like+When+It+Rains",
-          "thumb": "https://img.youtube.com/vi/HpYdA-06jTc/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/HpYdA-06jTc/mqdefault.jpg",
+          "channel": "@WILLIS"
         },
         {
           "title": "Holiday In Cambodia",
           "url": "https://youtube.com/watch?v=Ub4E2RHwc30",
           "urlp": "?v=Ub4E2RHwc30&title=Holiday+In+Cambodia",
-          "thumb": "https://img.youtube.com/vi/Ub4E2RHwc30/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/Ub4E2RHwc30/mqdefault.jpg",
+          "channel": "@Dead Kennedys"
         },
         {
           "title": "Kanye West - Jail",
           "url": "https://youtube.com/watch?v=IviYsgJXG5k",
           "urlp": "?v=IviYsgJXG5k&title=Kanye+West+-+Jail",
-          "thumb": "https://img.youtube.com/vi/IviYsgJXG5k/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/IviYsgJXG5k/mqdefault.jpg",
+          "channel": "@Kanye West Official Channel"
         },
         {
           "title": "Eminem - Mockingbird [Official Music Video]",
           "url": "https://youtube.com/watch?v=S9bCLPwzSC0",
           "urlp": "?v=S9bCLPwzSC0&title=Eminem+-+Mockingbird+%5BOfficial+Music+Video%5D",
-          "thumb": "https://img.youtube.com/vi/S9bCLPwzSC0/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/S9bCLPwzSC0/mqdefault.jpg",
+          "channel": "@EminemMusic"
         },
         {
           "title": "Kanye West - Runaway ft. Pusha T",
           "url": "https://youtube.com/watch?v=uTEhc5bFp-k",
           "urlp": "?v=uTEhc5bFp-k&title=Kanye+West+-+Runaway+ft.+Pusha+T",
-          "thumb": "https://img.youtube.com/vi/uTEhc5bFp-k/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/uTEhc5bFp-k/mqdefault.jpg",
+          "channel": "@ツDeyvson - Legenda"
         },
         {
           "title": "Misfits - Saturday Night",
           "url": "https://youtube.com/watch?v=JlWPpQmjnVQ",
           "urlp": "?v=JlWPpQmjnVQ&title=Misfits+-+Saturday+Night",
-          "thumb": "https://img.youtube.com/vi/JlWPpQmjnVQ/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/JlWPpQmjnVQ/mqdefault.jpg",
+          "channel": "@The Misfits - Official Channel"
         },
         {
           "title": "Never Too Much - Luther Vandross",
           "url": "https://youtube.com/watch?v=o6vCn2sBbBE",
           "urlp": "?v=o6vCn2sBbBE&title=Never+Too+Much+-+Luther+Vandross",
-          "thumb": "https://img.youtube.com/vi/o6vCn2sBbBE/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/o6vCn2sBbBE/mqdefault.jpg",
+          "channel": "@Luther Vandross"
         }
       ],
       "Outros": [
         {
           "title": "Flying Over the Desert & Mountains at 10,000 ft! Michigan to California Part 2",
           "url": "https://youtube.com/watch?v=KXvcYy-qaEs",
-          "urlp": "",
-          "thumb": "https://img.youtube.com/vi/KXvcYy-qaEs/mqdefault.jpg"
+          "urlp": "?v=KXvcYy-qaEs&title=Flying+Over+the+Desert+%26+Mountains+at+10%2C000+ft%21+Michigan+to+California+Part+2",
+          "thumb": "https://img.youtube.com/vi/KXvcYy-qaEs/mqdefault.jpg",
+          "channel": "@Stevie Triesenberg"
         },
         {
           "title": "1000HP Twin Turbo Lamborghini Huracan",
           "url": "https://youtube.com/watch?v=LaLhYHj1obs",
           "urlp": "?v=LaLhYHj1obs&title=1000HP+Twin+Turbo+Lamborghini+Huracan",
-          "thumb": "https://img.youtube.com/vi/LaLhYHj1obs/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/LaLhYHj1obs/mqdefault.jpg",
+          "channel": "@FULL METAL AUTO"
         },
         {
           "title": "2 Fast 2 Furious Skyline scene HD",
           "url": "https://youtube.com/watch?v=hWcID2JgztU",
           "urlp": "?v=hWcID2JgztU&title=O+que+é+o+Java%3F+%23HipstersPontoTube",
-          "thumb": "https://img.youtube.com/vi/hWcID2JgztU/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/hWcID2JgztU/mqdefault.jpg",
+          "channel": "@Vinicius Monteiro"
         },
         {
           "title": "Will Our FREE Abandoned Airplane Finally Start? Ep4",
           "url": "https://youtube.com/watch?v=9P2kqlmPURo",
           "urlp": "?v=Iuz_jc96bQk&title=Will+Our+FREE+Abandoned+Airplane+Finally+Start%3F+Ep4",
-          "thumb": "https://img.youtube.com/vi/9P2kqlmPURo/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/9P2kqlmPURo/mqdefault.jpg",
+          "channel": "@Rebuild Rescue"
         },
         {
           "title": "POV: Novitec Ferrari 812 GTS N-Largo, sounds like a old F1 car",
           "url": "https://youtube.com/watch?v=6_w86uwSl-Q",
           "urlp": "?v=6_w86uwSl-Q&title=POV%3A+Novitec+Ferrari+812+GTS+N-Largo%2C+sounds+like+a+old+F1+car",
-          "thumb": "https://img.youtube.com/vi/6_w86uwSl-Q/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/6_w86uwSl-Q/mqdefault.jpg",
+          "channel": "@Novitec Group"
         },
         {
           "title": "Os AVIÕES que VOAM dentro dos FURACÕES",
           "url": "https://youtube.com/watch?v=AgZ8R6ICYKs",
           "urlp": "?v=AgZ8R6ICYKs&title=Os+AVIÕES+que+VOAM+dentro+dos+FURACÕES",
-          "thumb": "https://img.youtube.com/vi/AgZ8R6ICYKs/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/AgZ8R6ICYKs/mqdefault.jpg",
+          "channel": "@Aero Por Trás da Aviação"
         },
         {
           "title": "4500 Años de Guerra en 5 Minutos",
           "url": "https://youtube.com/watch?v=HK5OsDWYJmQ",
           "urlp": "?v=HK5OsDWYJmQ&title=4500+Años+de+Guerra+en+5+Minutos",
-          "thumb": "https://img.youtube.com/vi/HK5OsDWYJmQ/mqdefault.jpg"
+          "thumb": "https://img.youtube.com/vi/HK5OsDWYJmQ/mqdefault.jpg",
+          "channel": "@Cottereau"
         }
       ]
     },
