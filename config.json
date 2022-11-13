@@ -6,15 +6,15 @@
     "playlists": {
       "jogos": [
           {
-            "title": "Frostpunk - Neve e Steak tartare",
-            "url": "video/",
-            "tag": "QsqatJxAUtk",
-            "thumb": "https://img.youtube.com/vi/QsqatJxAUtk/hqdefault.jpg"
+            "title": "TUTORIAL PARA INICIANTES NO DAYZ",
+            "url": "https://www.youtube.com/watch?v=mYreEbxV4WU&ab_channel=LeonKexz",
+            "urlp": "/video?v=mYreEbxV4WU&title=TUTORIAL+PARA+INICIANTES+NO+DAYZ",
+            "thumb": "https://i.ytimg.com/vi/mYreEbxV4WU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNU7mgW0-1RSw1XSoG5vIzZqYTiw"
           },
           {
-            "title": "Frostpunk - Neve e Steak tartare",
-            "url": "video/",
-            "tag": "O8jtAyPuhNg",
+            "title": "Remakes MAIS IMPORTANTES de Pokémon",
+            "url": "https://www.youtube.com/watch?v=O8jtAyPuhNg&ab_channel=Kaka-MestrePok%C3%A9mon%21",
+            "urlp": "/video?v=O8jtAyPuhNg&title=Remakes+MAIS+IMPORTANTES+de+Pokémon",
             "thumb": "https://img.youtube.com/vi/O8jtAyPuhNg/hqdefault.jpg"
           },
           {
