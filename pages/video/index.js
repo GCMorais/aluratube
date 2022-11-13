@@ -61,7 +61,7 @@ const CommentList = (props) => {
   const playlistNames = Object.keys(props.comentario);
 
   return (
-    <div>
+    <>
       {playlistNames.map((playlistNames) => {
         const videos = props.comentario[playlistNames];
         return (
@@ -86,7 +86,7 @@ const CommentList = (props) => {
           </StyledComment>
         );
       })}
-    </div>
+    </>
   );
 };
 
@@ -103,12 +103,20 @@ export default function MainPage() {
   );
 }
 
+
+const StyledVideoContainer = styled.div`
+  width: 68%;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
+`
+
 const Video = () => {
     const [searchValue, setSearchValue] = useState("");
     return (
-        <div>
+        <StyledVideoContainer>
             <VideoPlayer />
-        </div>
+        </StyledVideoContainer>
     )
 }
 

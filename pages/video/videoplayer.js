@@ -2,8 +2,9 @@ import { useRouter } from "next/router";
 import styled from "styled-components";
 
 const StyledVideoPlayer = styled.div`
-  padding: 4.5rem 1rem 0 1rem;
+  padding: 4.5rem 1rem 0 4rem;
   width: 100%;
+  transition: none;
 
   .descricaoArea h1 {
     font-family: "YouTube Sans", "Roboto", sans-serif;
@@ -99,7 +100,7 @@ const StyledVideoPlayer = styled.div`
     font-weight: 400;
     opacity: 0.9;
   }
-
+  
   @media (max-width: 800px) {
     width: 100%;
     padding: 4rem 0 0 0;
@@ -125,50 +126,50 @@ const VideoPlayer = () => {
   return (
     <StyledVideoPlayer>
       <div>
-        <div className="ratio ratio-16x9">
-            <iframe
-            src={`https://www.youtube.com/embed/${router.query.v}`}
-            title="Youtube Video Player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-        </div>
-        <div className="descricaoArea">
-            <h1 className="title">{router.query.title}</h1>
-          <div className="channelBox">
-            <div className="profileTube">
-              <img src={`https://github.com/GCMorais.png`} />
-              <span>
-                <p>Guilherme C.Morais</p>
-                <a>FullStack Developer</a>
-              </span>
+            <div className="ratio ratio-16x9">
+                <iframe
+                src={`https://www.youtube.com/embed/${router.query.v}`}
+                title="Youtube Video Player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                ></iframe>
             </div>
-            <div className="btn-container">
-              <button className="btn-chn" type="button">
-                Inscrever-se
-              </button>
-              <button className="btn-like-deslike" type="button">
-                👍 Like
-              </button>
-              <button className="btn-like-deslike" type="button">
-                👎 Deslike
-              </button>
-              <button className="btn-comp" type="button">
-                🔃 Compartilhar
-              </button>
+            <div className="descricaoArea">
+                <h1 className="title">{router.query.title}</h1>
+            <div className="channelBox">
+                <div className="profileTube">
+                <img src={`https://github.com/GCMorais.png`} />
+                <span>
+                    <p>Guilherme C.Morais</p>
+                    <a>FullStack Developer</a>
+                </span>
+                </div>
+                <div className="btn-container">
+                <button className="btn-chn" type="button">
+                    Inscrever-se
+                </button>
+                <button className="btn-like-deslike" type="button">
+                    👍 Like
+                </button>
+                <button className="btn-like-deslike" type="button">
+                    👎 Deslike
+                </button>
+                <button className="btn-comp" type="button">
+                    🔃 Compartilhar
+                </button>
+                </div>
             </div>
-          </div>
-          <div className="desable">
-            <p>
-              Os comentários estão desativados.{" "}
-              <a
-                target="_blank"
-                href="https://httpstatusdogs.com/404-not-found"
-              >
-                Saiba mais
-              </a>
-            </p>
-          </div>
-        </div>
+            <div className="desable">
+                <p>
+                Os comentários estão desativados.{" "}
+                <a
+                    target="_blank"
+                    href="https://httpstatusdogs.com/404-not-found"
+                >
+                    Saiba mais
+                </a>
+                </p>
+            </div>
+            </div>
       </div>
     </StyledVideoPlayer>
   );
