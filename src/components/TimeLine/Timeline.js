@@ -46,7 +46,7 @@ export const StyledTimeline = styled.div`
     width: 100%;
     padding: 0;
     overflow: hidden;
-    padding: 32px;
+    padding: 32px 0 0 32px;
 
     div {
       padding-bottom: 2rem;

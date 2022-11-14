@@ -7,12 +7,172 @@ import Link from "next/link";
 import { GoMarkGithub } from "react-icons/go";
 import { GrLinkedin, GrRobot } from "react-icons/gr";
 import Footer from "../src/components/footer";
+import { videoService } from "../src/services/videoService";
 
 
 
+const OldTimeLine = ({ searchValue, ...props }) => {
+  const playlistNames = Object.keys(props.comentario);
+
+  return (
+    <StyledOldTimeline>
+      {playlistNames.map((playlistNames) => {
+        const videos = props.comentario[playlistNames];
+        return (
+          <section key={playlistNames}>
+            <h2>{playlistNames}</h2>
+            <div className="video-container">
+              {videos
+                .filter((video) => {
+                  const titleNormalized = video.title.toLowerCase();
+                  const searchValueNormalized = searchValue.toLowerCase();
+                  return titleNormalized.includes(searchValueNormalized)
+                })
+                .map((video) => {
+                  let idVideo;
+                  const linkFormat =
+                    /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+                  const match = video.url.match(linkFormat);
+                  if (match && match[2].length == 11) {
+                    idVideo = match[2];
+                  }
+                  return (
+                    <Link
+                      key={video.url}
+                      href={{
+                        pathname: "/video",
+                        query: {
+                          v: idVideo,
+                          title: video.title,
+                        },
+                      }}
+                    >
+                      <img src={video.thumb} />
+                      <span>{video.title}</span>
+                      <h4><strong>{video.channel}</strong></h4>
+                    </Link>
+                  );
+                })}
+            </div>
+          </section>
+        );
+      })}
+    </StyledOldTimeline>
+  );
+};
+
+const StyledOldTimeline = styled.section`
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: grey;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 7px;
+    height: 5px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+    overflow: hidden;
+  }
+  img {
+    aspect-ratio: 16/9;
+    font-weight: 500;
+    object-fit: cover;
+    width: 100%;
+    max-width: 210px;
+    height: auto;
+    border-radius: 10px;
+  }
+  section {
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    padding: 32px;
+
+    div {
+      padding-bottom: 2rem;
+      width: calc(100vw - 16px * 4);
+      display: grid;
+      grid-gap: 16px;
+      grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+      grid-auto-flow: column;
+      grid-auto-columns: minmax(200px,1fr);
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+
+      overflow: auto;
+      
+      a {
+        scroll-snap-align: start;
+        span {
+          padding-top: 8px;
+          display: block;
+          padding-right: 10px;
+          color: ${({ theme }) => theme.textColorBase || "#222222"};
+          font-family: sans-serif;
+          font-size: 14px;
+          text-align: left;
+          height: 60px;
+        }
+        h4{
+          padding-top: 8px;
+          color: ${({ theme }) => theme.textColorBase || "#222222"};
+          
+          font-size: 12px;
+          text-align: left;
+        }
+      }
+    }
+  }
+  section:nth-child(2){
+    background-color: ${({ theme }) => theme.backgroundLevel1};
+  }
+`;
 
 const Home = () => {
   const [valorDoFiltro, setValorDoFiltro] = React.useState("");
+  const service = videoService();
+  const [playlists, setPlaylists] = React.useState({  });
+
+  React.useEffect(() => {
+    console.log("useEffect");
+    service
+        .getAllVideos()
+        .then((dados) => {
+            console.log(dados.data);
+            // Forma imutavel
+            const novasPlaylists = {};
+            dados.data.forEach((video) => {
+                if (!novasPlaylists[video.playlist]) novasPlaylists[video.playlist] = [];
+                novasPlaylists[video.playlist] = [
+                    video,
+                    ...novasPlaylists[video.playlist],
+                ];
+            });
+
+            setPlaylists(novasPlaylists);
+        });
+}, []);
 
   return (
     <>
@@ -22,7 +182,8 @@ const Home = () => {
           setValorDoFiltro={setValorDoFiltro}
         />
         <Header />
-        <TimeLine filtro={valorDoFiltro} lista={config.playlists} />
+        <TimeLine filtro={valorDoFiltro} lista={playlists}/>
+        <OldTimeLine comentario={config.playlists} searchValue={valorDoFiltro}/>
         <Favorites favlist={config.favorites} />
         <Footer />
       </div>

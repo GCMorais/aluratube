@@ -108,6 +108,9 @@ const StyledVideoPlayer = styled.div`
     width: 100%;
     padding: 4rem 0 0 0;
 
+    .btn-chn, .btn-comp, .btn-like-deslike{
+      font-size: 13px;
+    }
     .channelBox {
       flex-flow: column;
       align-items: baseline;
@@ -143,7 +146,7 @@ const VideoPlayer = () => {
                 <img src={`https://github.com/GCMorais.png`} />
                 <span>
                     <p>Guilherme C.Morais</p>
-                    <a>FullStack Developer</a>
+                    <a>Developer and tech enthusiast</a>
                 </span>
                 </div>
                 <div className="btn-container">
