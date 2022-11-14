@@ -81,7 +81,7 @@ export default function RegisterVideo() {
                 value={formCadastro.values.channel}
                 onChange={formCadastro.handleChange}
               />
-              <button type="submit">Cadastrar</button>
+              <button type="submit" onClick={() => {{location.reload()}}}>Cadastrar</button>
             </div>
           </form>
         ) : null}
