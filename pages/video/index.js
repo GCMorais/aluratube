@@ -5,9 +5,13 @@ import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
 import config from "../../config.json";
 import VideoPlayer from "./videoplayer";
+import Footer from "../../src/components/footer";
+
+
 
 const StyledMainSection = styled.section`
   display: flex;
+  flex-flow: column;
   width: 100%;
 
   @media (max-width: 800px) {
@@ -21,6 +25,7 @@ const StyledDesc = styled.section`
   color: white;
   width: 30%;
   margin-top: 4.5rem;
+  gap: 1rem;
 
   @media (max-width: 800px) {
     margin-top: 2rem;
@@ -29,7 +34,7 @@ const StyledDesc = styled.section`
 `;
 
 const StyledComment = styled.section`
-  width: 100%;
+  width: 90%;
 
   img {
     aspect-ratio: 16/9;
@@ -51,6 +56,17 @@ const StyledComment = styled.section`
     color: ${({ theme }) => theme.textColorBase || "#FFFFFF"};
   }
 
+  a section{
+    p{
+      font-size: 12px;
+      opacity: .5;
+    }
+    h4{
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+  }
+
   @media (max-width: 800px) {
     padding: 1rem;
   }
@@ -66,7 +82,7 @@ const CommentList = (props) => {
         const videos = props.comentario[playlistNames];
         return (
           <StyledComment>
-            <div>
+            <div key={playlistNames}>
               {videos.map((video) => {
                 let idVideo;
                   const linkFormat =
@@ -78,7 +94,10 @@ const CommentList = (props) => {
                 return (
                   <a key={video.urlp} href={video.urlp}>
                     <img src={video.thumb} />
-                    <p>{video.title}</p>
+                    <section>
+                      <h4>{video.title}</h4>
+                      <p>{video.channel}</p>
+                    </section>
                   </a>
                 );
               })}
@@ -90,19 +109,29 @@ const CommentList = (props) => {
   );
 };
 
+const StyledVideoAndDescript = styled.div`
+display: flex;
+  width: 100%;
+
+  @media (max-width: 800px) {
+    flex-flow: column;
+  }
+`
 
 export default function MainPage() {
   return (
-    <StyledMainSection>
-      <Menu />
-      <Video />
-      <StyledDesc>
-        <CommentList comentario={config.playlists} />
-      </StyledDesc>
-    </StyledMainSection>
+      <StyledMainSection>
+        <Menu />
+        <StyledVideoAndDescript >
+          <Video />
+          <StyledDesc>
+            <CommentList comentario={config.playlists} />
+          </StyledDesc>
+        </StyledVideoAndDescript>
+        <Footer />
+      </StyledMainSection>
   );
 }
-
 
 const StyledVideoContainer = styled.div`
   width: 68%;

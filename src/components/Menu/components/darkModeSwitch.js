@@ -1,4 +1,5 @@
 import React from "react";
+import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 import styled from "styled-components";
 import { ColorModeContext } from "./ColorMode";
 
@@ -24,6 +25,7 @@ const StyledSwitch = styled.div`
     height: 20px;
     align-items: center;
     justify-content: center;
+    color: white;
   }
 
   label:before {
@@ -60,8 +62,8 @@ export default function DarkModeSwitch() {
         if(contexto.mode === "light") contexto.setMode("dark");
       }} />
       <label htmlFor="darkmode" className="darkmode-switch">
-        <span>🌙</span>
-        <span>☀️</span>
+        <span><MdOutlineDarkMode /></span>
+        <span><MdOutlineLightMode /></span>
       </label>
     </StyledSwitch>
   );

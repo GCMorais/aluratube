@@ -1,4 +1,5 @@
 import React from "react";
+import { MdManageSearch } from "react-icons/md";
 import styled from "styled-components"
 
 const StyledSearch = styled.div`
@@ -33,6 +34,8 @@ const StyledSearch = styled.div`
     transition: none;
     width: 40px;
     height: 40px;
+    color: ${({ theme }) => theme.textColorBase || "#222222"};
+
     @media (min-width: 600px) {
       width: 64px;
       height: 40px;
@@ -56,7 +59,7 @@ export default function Search({valorDoFiltro, setValorDoFiltro}) {
         <StyledSearch>
             <input type="text" placeholder="Pesquisar" onChange={(e) => setValorDaBusca(e.target.value)} value={valorDaBusca}/>
             <button>
-                🔎
+                <MdManageSearch size={30}/>
             </button>
         </StyledSearch>
     )

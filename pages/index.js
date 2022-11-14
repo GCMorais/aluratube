@@ -6,7 +6,7 @@ import { StyledTimeline } from "../src/components/TimeLine/Timeline";
 import Link from "next/link";
 import { GoMarkGithub } from "react-icons/go";
 import { GrLinkedin, GrRobot } from "react-icons/gr";
-import { MdOutlineEmojiEvents } from "react-icons/md";
+import Footer from "../src/components/footer";
 
 
 
@@ -74,8 +74,11 @@ const StyledHeader = styled.div`
   .userDescript{
     display: flex;
     flex-flow: column;
-    align-items: center;
-    padding: 1rem;
+    padding: 1.3rem 0 0 1rem;
+  }
+  .userDescript h1, p{
+    letter-spacing: 1px;
+    font-size: 20px;
   }
   ul{
     list-style: none;
@@ -280,35 +283,3 @@ const Favorites = (props) => {
 };
 
 
-const StyledFooter = styled.section`
-  text-align: center;
-  padding: 3rem 1rem 1rem;
-  font-size: 14px;
-
-  div:nth-child(1){
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: .5rem;
-    padding-bottom: 1rem;
-    span{
-      color: ${({ theme }) => theme.textColorBase || "#222222"};
-    }
-  }
-  strong{
-    opacity: .7;
-  }
-`
-
-const Footer = () =>{
-
-
-  return (
-    <StyledFooter>
-      <div>
-        <span><MdOutlineEmojiEvents size={23}/></span>
-        <h4>Desenvolvido por Guilherme C.Morais - <strong>2022</strong></h4>
-      </div>
-    </StyledFooter>
-  )
-}

@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { MdShare, MdThumbDownAlt, MdThumbUpAlt } from "react-icons/md";
 import styled from "styled-components";
 
 const StyledVideoPlayer = styled.div`
@@ -8,7 +9,7 @@ const StyledVideoPlayer = styled.div`
 
   .descricaoArea h1 {
     font-family: "YouTube Sans", "Roboto", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2.8rem;
     font-weight: 600;
     letter-spacing: 1px;
@@ -43,6 +44,8 @@ const StyledVideoPlayer = styled.div`
     align-items: center;
     gap: 1rem;
     justify-content: space-between;
+    border-bottom: 1px solid #383838;
+    padding-bottom: 1rem;
   }
   .channelBox span {
     display: flex;
@@ -148,13 +151,13 @@ const VideoPlayer = () => {
                     Inscrever-se
                 </button>
                 <button className="btn-like-deslike" type="button">
-                    👍 Like
+                    <MdThumbUpAlt/> Like
                 </button>
                 <button className="btn-like-deslike" type="button">
-                    👎 Deslike
+                    <MdThumbDownAlt/> Deslike
                 </button>
                 <button className="btn-comp" type="button">
-                    🔃 Compartilhar
+                    <MdShare /> Compartilhar
                 </button>
                 </div>
             </div>
