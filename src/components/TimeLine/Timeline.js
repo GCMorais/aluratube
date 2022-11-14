@@ -49,7 +49,7 @@ export const StyledTimeline = styled.div`
     padding: 32px 0 0 32px;
 
     div {
-      padding-bottom: 2rem;
+      padding-bottom: 1rem;
       width: calc(100vw - 16px * 4);
       display: grid;
       grid-gap: 16px;
